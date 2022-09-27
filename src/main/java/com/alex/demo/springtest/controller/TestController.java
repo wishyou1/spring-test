@@ -48,15 +48,7 @@ public class TestController {
 		return s;
 	}
 
-	/*@RequestMapping(value = "/runa", method = RequestMethod.GET)
-	@ResponseBody
-	public MyThead runa(){
-		System.out.println("JVM启动main线程,main线程执行main方法");
-		MyThead mt = new MyThead();
-		mt.start();
-		System.out.println("main线程后面其他 的代码...");
-		return mt;
-	}*/
+
 
 	/*@RequestMapping(value = "/runing", method = RequestMethod.GET)
 	@ResponseBody
